@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "66914289bea06e230d4d1678"
+  },
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "genre": "Fiction",
+  "publishedDate": "1960-07-11",
+  "pages": 281,
+  "language": "English",
+  "ISBN": "978-0061120084"
+},
+{
+  "_id": {
+    "$oid": "669142b7bea06e230d4d167a"
+  },
+  "title": "1984",
+  "author": "George Orwell",
+  "genre": "Dystopian",
+  "publishedDate": "1949-06-08",
+  "pages": 328,
+  "language": "English",
+  "ISBN": "978-0451524935"
+},
+{
+  "_id": {
+    "$oid": "669142c7bea06e230d4d167c"
+  },
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "genre": "Romance",
+  "publishedDate": "1813-01-28",
+  "pages": 279,
+  "language": "English",
+  "ISBN": "978-1503290563"
+},
+{
+  "_id": {
+    "$oid": "669142dcbea06e230d4d167e"
+  },
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "genre": "Tragedy",
+  "publishedDate": "1925-04-10",
+  "pages": 180,
+  "language": "English",
+  "ISBN": "978-0743273565"
+},
+{
+  "_id": {
+    "$oid": "669142ebbea06e230d4d1680"
+  },
+  "title": "Moby Dick",
+  "author": "Herman Melville",
+  "genre": "Adventure",
+  "publishedDate": "1851-10-18",
+  "pages": 635,
+  "language": "English",
+  "ISBN": "978-1503280786"
+}]
