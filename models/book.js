@@ -1,14 +1,9 @@
-const mongoose = require('mongoose');
 
-const bookSchema = new mongoose.Schema({
-    id: { type: String, required: true, unique: true },
-    title: { type: String, required: true },
-    authorId: { type: String, required: true },
-    genre: String,
-    publishedDate: Date,
-    pages: Number,
-    language: String,
-    ISBN: String
-});
+const { getDatabase } = require('../data/database');
 
-module.exports = mongoose.model('Book', bookSchema);
+const getBookCollection = () => {
+    const db = getDatabase();
+    return db.collection('books');
+};
+
+module.exports = { getBookCollection };

@@ -1,10 +1,9 @@
-const mongoose = require('mongoose');
 
-const authorSchema = new mongoose.Schema({
-    id: { type: String, required: true, unique: true },
-    name: { type: String, required: true },
-    dateOfBirth: Date,
-    nationality: String
-});
+const { getDatabase } = require('../data/database');
 
-module.exports = mongoose.model('Author', authorSchema);
+const getAuthorCollection = () => {
+    const db = getDatabase();
+    return db.collection('authors');
+};
+
+module.exports = { getAuthorCollection };
